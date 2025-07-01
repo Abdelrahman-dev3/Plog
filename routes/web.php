@@ -3,6 +3,8 @@
 use App\Http\Controllers\indexController;
 use Illuminate\Support\Facades\Route;
 
+Route::get("/",[indexController::class , "index"])->name("post.index");
+
 Route::get("/posts",[indexController::class , "index"])->name("post.index");
 
 Route::get("/posts/create",[indexController::class , "create"])->name("post.create");
