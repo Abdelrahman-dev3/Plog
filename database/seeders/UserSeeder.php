@@ -14,34 +14,36 @@ class UserSeeder extends Seeder
      */
     public function run(): void
     {
-        User::create([
-            'name' => 'User One',
-            'email' => 'user1@example.com',
-            'password' => Hash::make('password1'),
-        ]);
 
         User::create([
-            'name' => 'User Two',
-            'email' => 'user2@example.com',
-            'password' => Hash::make('password2'),
+            'name' => 'User Six',
+            'email' => 'user6@example.com',
+            'password' => Hash::make('password6'),
         ]);
-
+        
         User::create([
-            'name' => 'User Three',
-            'email' => 'user3@example.com',
-            'password' => Hash::make('password3'),
+            'name' => 'User Seven',
+            'email' => 'user7@example.com',
+            'password' => Hash::make('password7'),
         ]);
-
+        
         User::create([
-            'name' => 'User Four',
-            'email' => 'user4@example.com',
-            'password' => Hash::make('password4'),
+            'name' => 'User Eight',
+            'email' => 'user8@example.com',
+            'password' => Hash::make('password8'),
         ]);
-
+        
         User::create([
-            'name' => 'User Five',
-            'email' => 'user5@example.com',
-            'password' => Hash::make('password5'),
+            'name' => 'User Nine',
+            'email' => 'user9@example.com',
+            'password' => Hash::make('password9'),
         ]);
+        
+        User::create([
+            'name' => 'User Ten',
+            'email' => 'user10@example.com',
+            'password' => Hash::make('password10'),
+        ]);
+        
     }
 }
